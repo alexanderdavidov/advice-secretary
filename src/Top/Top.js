@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Logo from './media/Logo.svg';
-import './App.css';
+import './Top.css';
 
 class App extends Component {
   render() {
@@ -42,9 +42,14 @@ class App extends Component {
       },
     ];
     return (
-      <div className="App">
-        <div className="Wrapper">
-
+      <div className="Wrapper">
+        <div className="AppTop">
+          <img className="AppTopLogo" src={Logo} alt="Logo" />
+          <div className="AppTopCompanyName">advice secretary</div>
+        </div>
+        <div className="AppJumbotron">
+          <div className="AppJumbotronText">Экономьте время на организации вебинаров</div>
+          <div className="AppJumbotronButton">Оставить заявку</div>
         </div>
       </div>
     );
