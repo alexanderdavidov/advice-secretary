@@ -1,37 +1,76 @@
+html, body {margin: 0; height: 100%; overflow: hidden}
+
 .App {
+  height: 100vh;
+  width: 100vw;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.Wrapper {
-  width: 80%;
+.Page {
+  position: fixed;
+  height: calc(100vh - 100px);
+  width: calc(100vw - 100px);
+  overflow: scroll;
+  border-radius: 10px;
+  /*display: flex;*/
+  /*flex-direction: column;*/
+  /*justify-content: center;*/
+  /*align-items: center;*/
 }
 
-.AppTop {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  margin-top: 50px;
-}
-
-.AppTopLogo {
-  width: 50px;
-}
-
-.AppTopCompanyName {
-  font-size: 20px;
-  margin-left: 20px;
-}
-
-.AppJumbotronText {
-  font-size: 20px;
-}
-
-.AppJumbotronButton {
-  background-color: #66CB87;
-  padding: 15px 30px 14px 30px;
-  font-size: 20px;
+.Section {
   color: #fff;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  line-height: 1.5;
+  letter-spacing: 2px;
+  box-sizing: border-box;
+  height: calc(100vh - 100px);
+  width: calc(100vw - 100px);
+
+}
+
+.CompanyName {
+  font-size: 50px;
+  padding-bottom: 10px;
+}
+
+.Description {
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.PictureWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.Picture {
+  border-radius: 10px;
+  width: 50%;
+  height: 50vh;
+  background-color: #abacaa;
+}
+
+.SectionStart {
+  background-color: #1EC95B;
+}
+
+.SectionMiddle {
+  color: #404040;
+  font-weight: 300;
+  font-size: 25px;
+}
+
+.SectionEnd {
+  background-color: #f8416e;
+  font-weight: 700;
+  font-size: 50px;
 }
