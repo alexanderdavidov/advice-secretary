@@ -5,100 +5,60 @@ class App extends Component {
   render() {
     const data = [
       {
-        text: 'Уточняем ваше свободное время и информацию по оплате вашей услуги',
-        media: {
-          type: '',
-          src: '',
-        },
+        title: 'Ведем календарь занятий',
+        description: 'Уточняем ваше свободное время для проведения консультаций'
       },
       {
-        text: 'Создаем гугл форму для потенциальных слушателей',
-        media: {
-          type: '',
-          src: '',
-        },
+        title: 'Помогаем провести оплату',
+        description: 'Уточняем удобный способ оплаты вашей услуги'
       },
       {
-        text: 'Создаем онлайн комнату для видеозвонка',
-        media: {
-          type: '',
-          src: '',
-        },
+        title: 'Принимаем записи от потенциальных слушателей',
+        description: 'Создаем гугл форму'
       },
       {
-        text: 'Предоставляем статистику по вашим слушателям',
-        media: {
-          type: '',
-          src: '',
-        },
-      },
-      {
-        text: 'Следим за оплатой услуги',
-        media: {
-          type: '',
-          src: '',
-        },
-      },
+        title: 'Помогаем установить видеосвязь',
+        description: 'Создаем онлайн комнату для видеозвонка'
+      }
     ];
+    const middleSections = data.map((el,index) => {
+      return (
+        <div className="Section SectionMiddle">
+          <div className="Text">
+            <div className="TitleMiddle">{el.title}</div>
+            <div className="DescriptionMiddle">{el.description}</div>
+          </div>
+          <div className="PictureWrapper">
+            <div className="Picture"/>
+          </div>
+        </div>
+      );
+    });
     return (
       <div className="App">
         <div className="Page">
+
           <div className="Section SectionStart">
             <div className="Text">
-              <div className="CompanyName">Advice Secretary</div>
-              <div className="Description">Сервис для организации вебинаров</div>
+              <div className="Title">Advice Secretary</div>
+              <div className="Description">Сервис для организации консультаций</div>
             </div>
             <div className="PictureWrapper">
-              <div/>
-              <div className="Picture"></div>
+              <div className="Picture"/>
             </div>
           </div>
-          <div className="Section SectionMiddle">
+
+          {middleSections}
+
+          <div className="Section SectionEnd">
             <div className="Text">
-              Уточняем ваше свободное время<br/> и информацию по оплате вашей услуги
+              <div className="Title">Контакты</div>
+              <div className="Description">Свяжитесь с нами</div>
             </div>
             <div className="PictureWrapper">
-              <div/>
-              <div className="Picture"></div>
+              <div className="Picture"/>
             </div>
           </div>
-          <div className="Section SectionMiddle">
-            <div className="Text">
-              Создаем гугл форму для потенциальных слушателей
-            </div>
-            <div className="PictureWrapper">
-              <div/>
-              <div className="Picture"></div>
-            </div>
-          </div>
-          <div className="Section SectionMiddle">
-            <div className="Text">
-              Создаем онлайн комнату для видеозвонка
-            </div>
-            <div className="PictureWrapper">
-              <div/>
-              <div className="Picture"></div>
-            </div>
-          </div>
-          <div className="Section SectionMiddle">
-            <div className="Text">
-              Предоставляем статистику по вашим слушателям
-            </div>
-            <div className="PictureWrapper">
-              <div/>
-              <div className="Picture"></div>
-            </div>
-          </div>
-          <div className="Section SectionMiddle">
-            <div className="Text">
-              Следим за оплатой услуги
-            </div>
-            <div className="PictureWrapper">
-              <div/>
-              <div className="Picture"></div>
-            </div>
-          </div>
-          <div className="Section SectionEnd">Контакты</div>
         </div>
       </div>
     );
