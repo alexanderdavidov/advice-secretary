@@ -3,6 +3,7 @@ import './App.css';
 import yo from './media/yo.png';
 import First from './media/First.jpg';
 import Calendar from './media/Calendar.svg';
+import Money from './media/Money.svg';
 
 class App extends Component {
   render() {
@@ -15,7 +16,7 @@ class App extends Component {
       {
         title: 'Помогаем провести оплату',
         description: 'Уточняем удобный способ оплаты вашей услуги',
-        img: ''
+        img: Money
       },
       {
         title: 'Принимаем записи от потенциальных слушателей',

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="361px" height="241px" viewBox="0 0 361 241" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Money</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Money" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(18.000000, 13.000000)" stroke-width="5">
+            <rect id="Rectangle-4" stroke="#77B254" x="2.5" y="2.5" width="320" height="210" rx="10"></rect>
+            <rect id="Rectangle-5" stroke="#77B254" fill="#77B254" x="4.5" y="38.5" width="315" height="31"></rect>
+            <path d="M32.5741852,132.231075 C35.3980313,120.278859 39.6494926,114.819247 45.3285692,115.852239 C53.8471841,117.401726 53.9634616,139.563246 62.7336326,138.568856 C71.5038036,137.574466 68.8856255,110.855802 77.2935223,112.22795 C85.701419,113.600098 83.8163315,136.1722 90.7212378,136.895285 C97.6261441,137.618371 98.9144003,117.132535 106.367953,118.986872 C113.821506,120.84121 113.821506,136.895285 120.057176,136.895285 C124.214289,136.895285 127.424727,134.604731 129.68849,130.023623" id="Path-3" stroke="#C54C84"></path>
+        </g>
+        <rect id="Rectangle-6" fill="#C54C84" x="265" y="124" width="47" height="30"></rect>
+    </g>
+</svg>
