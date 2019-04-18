@@ -1,35 +1,42 @@
 import React, { Component } from 'react';
 import './App.css';
+import yo from './media/yo.png';
+import First from './media/First.jpg';
+import Calendar from './media/Calendar.svg';
 
 class App extends Component {
   render() {
     const data = [
       {
         title: 'Ведем календарь занятий',
-        description: 'Уточняем ваше свободное время для проведения консультаций'
+        description: 'Уточняем ваше свободное время для проведения консультаций',
+        img: Calendar
       },
       {
         title: 'Помогаем провести оплату',
-        description: 'Уточняем удобный способ оплаты вашей услуги'
+        description: 'Уточняем удобный способ оплаты вашей услуги',
+        img: ''
       },
       {
         title: 'Принимаем записи от потенциальных слушателей',
-        description: 'Создаем гугл форму'
+        description: 'Создаем гугл форму',
+        img: ''
       },
       {
         title: 'Помогаем установить видеосвязь',
-        description: 'Создаем онлайн комнату для видеозвонка'
+        description: 'Создаем онлайн комнату для видеозвонка',
+        img: ''
       }
     ];
     const middleSections = data.map((el,index) => {
       return (
-        <div className="Section SectionMiddle">
+        <div key={index} className="Section SectionMiddle">
           <div className="Text">
-            <div className="TitleMiddle">{el.title}</div>
-            <div className="DescriptionMiddle">{el.description}</div>
+            <div className="Title">{el.title}</div>
+            <div className="Description">{el.description}</div>
           </div>
           <div className="PictureWrapper">
-            <div className="Picture"/>
+            <img className="Icon" src={el.img} alt="ElImg"/>
           </div>
         </div>
       );
@@ -38,13 +45,13 @@ class App extends Component {
       <div className="App">
         <div className="Page">
 
-          <div className="Section SectionStart">
+          <div className="Section">
             <div className="Text">
-              <div className="Title">Advice Secretary</div>
+              <div className="Title"><img className="Yo" src={yo} alt="yo"/>Advice Secretary</div>
               <div className="Description">Сервис для организации консультаций</div>
             </div>
             <div className="PictureWrapper">
-              <div className="Picture"/>
+              <img className="Picture" src={First} alt="Picture"/>
             </div>
           </div>
 
@@ -52,8 +59,8 @@ class App extends Component {
 
           <div className="Section SectionEnd">
             <div className="Text">
-              <div className="Title">Контакты</div>
-              <div className="Description">Свяжитесь с нами</div>
+              <div className="TitleBottom">Контакты</div>
+              <div className="DescriptionBottom">Свяжитесь с нами</div>
             </div>
             <div className="PictureWrapper">
               <div className="Picture"/>

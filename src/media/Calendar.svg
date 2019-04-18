@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="361px" height="369px" viewBox="0 0 361 369" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Calendar</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Calendar" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(13.000000, 16.000000)">
+            <path d="M14,3 L322,3 C327.522847,3 332,7.4771525 332,13 L332,83 L4,83 L4,13 C4,7.4771525 8.4771525,3 14,3 Z" id="Rectangle-3" fill="#77B254"></path>
+            <rect id="Rectangle" stroke="#77B254" stroke-width="5" x="2.5" y="2.5" width="330" height="333" rx="10"></rect>
+            <path d="M2.30112597,84.0484456 L332.239378,84.0484456" id="Path-2" stroke="#77B254" stroke-width="5"></path>
+            <rect id="Rectangle-2" stroke="#77B254" stroke-width="3" x="196.5" y="118.5" width="22" height="22" rx="5"></rect>
+            <rect id="Rectangle-2" stroke="#77B254" stroke-width="3" x="196.5" y="158.5" width="22" height="22" rx="5"></rect>
+            <rect id="Rectangle-2" stroke="#77B254" stroke-width="3" x="196.5" y="198.5" width="22" height="22" rx="5"></rect>
+            <rect id="Rectangle-2" stroke="#77B254" stroke-width="3" x="156.5" y="198.5" width="22" height="22" rx="5"></rect>
+            <rect id="Rectangle-2" fill="#C54C84" x="115" y="197" width="25" height="25" rx="5"></rect>
+            <rect id="Rectangle-2" stroke="#77B254" stroke-width="3" x="76.5" y="198.5" width="22" height="22" rx="5"></rect>
+            <rect id="Rectangle-2" stroke="#77B254" stroke-width="3" x="36.5" y="198.5" width="22" height="22" rx="5"></rect>
+            <rect id="Rectangle-2" stroke="#77B254" stroke-width="3" x="36.5" y="238.5" width="22" height="22" rx="5"></rect>
+            <rect id="Rectangle-2" stroke="#77B254" stroke-width="3" x="76.5" y="238.5" width="22" height="22" rx="5"></rect>
+            <rect id="Rectangle-2" stroke="#77B254" stroke-width="3" x="116.5" y="238.5" width="22" height="22" rx="5"></rect>
+            <rect id="Rectangle-2" stroke="#77B254" stroke-width="3" x="156.5" y="238.5" width="22" height="22" rx="5"></rect>
+            <rect id="Rectangle-2" fill="#C54C84" x="195" y="237" width="25" height="25" rx="5"></rect>
+            <rect id="Rectangle-2" stroke="#77B254" stroke-width="3" x="36.5" y="278.5" width="22" height="22" rx="5"></rect>
+            <rect id="Rectangle-2" stroke="#77B254" stroke-width="3" x="76.5" y="278.5" width="22" height="22" rx="5"></rect>
+            <rect id="Rectangle-2" stroke="#77B254" stroke-width="3" x="116.5" y="278.5" width="22" height="22" rx="5"></rect>
+            <rect id="Rectangle-2" fill="#C54C84" x="155" y="277" width="25" height="25" rx="5"></rect>
+            <rect id="Rectangle-2" stroke="#77B254" stroke-width="3" x="196.5" y="278.5" width="22" height="22" rx="5"></rect>
+            <rect id="Rectangle-2" fill="#C54C84" x="155" y="157" width="25" height="25" rx="5"></rect>
+            <rect id="Rectangle-2" stroke="#77B254" stroke-width="3" x="116.5" y="158.5" width="22" height="22" rx="5"></rect>
+            <rect id="Rectangle-2" stroke="#77B254" stroke-width="3" x="76.5" y="158.5" width="22" height="22" rx="5"></rect>
+            <rect id="Rectangle-2" stroke="#77B254" stroke-width="3" x="36.5" y="158.5" width="22" height="22" rx="5"></rect>
+            <rect id="Rectangle-2" fill="#77B254" x="235" y="117" width="25" height="25" rx="5"></rect>
+            <rect id="Rectangle-2" stroke="#356219" fill="#356219" x="235.5" y="157.5" width="24" height="24" rx="5"></rect>
+            <rect id="Rectangle-2" fill="#77B254" x="235" y="157" width="25" height="25" rx="5"></rect>
+            <rect id="Rectangle-2" fill="#77B254" x="235" y="197" width="25" height="25" rx="5"></rect>
+            <rect id="Rectangle-2" fill="#C54C84" x="235" y="237" width="25" height="25" rx="5"></rect>
+            <rect id="Rectangle-2" fill="#77B254" x="235" y="277" width="25" height="25" rx="5"></rect>
+            <rect id="Rectangle-2" fill="#77B254" x="275" y="157" width="25" height="25" rx="5"></rect>
+            <rect id="Rectangle-2" fill="#77B254" x="275" y="197" width="25" height="25" rx="5"></rect>
+            <rect id="Rectangle-2" fill="#77B254" x="275" y="237" width="25" height="25" rx="5"></rect>
+            <rect id="Rectangle-2" fill="#C54C84" x="275" y="117" width="25" height="25" rx="5"></rect>
+        </g>
+    </g>
+</svg>
