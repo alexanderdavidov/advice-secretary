@@ -15,7 +15,7 @@ class App extends Component {
       },
       {
         title: 'Помогаем провести оплату',
-        description: 'Уточняем удобный способ оплаты вашей услуги',
+        description: 'Paypal, Яндекс.Деньги, Банковские карты',
         img: Money
       },
       {
@@ -27,11 +27,16 @@ class App extends Component {
         title: 'Помогаем установить видеосвязь',
         description: 'Создаем онлайн комнату для видеозвонка',
         img: ''
-      }
+      },
+      {
+        title: 'Сбор статистики',
+        description: 'Создаем онлайн комнату для видеозвонка',
+        img: ''
+      },
     ];
     const middleSections = data.map((el,index) => {
       return (
-        <div key={index} className="Section SectionMiddle">
+        <div key={index} className="SectionMiddle">
           <div className="Text">
             <div className="Title">{el.title}</div>
             <div className="Description">{el.description}</div>
@@ -44,9 +49,8 @@ class App extends Component {
     });
     return (
       <div className="App">
-        <div className="Page">
 
-          <div className="Section">
+          <div className="SectionFirst">
             <div className="Text">
               <div className="Title"><img className="Yo" src={yo} alt="yo"/>Advice Secretary</div>
               <div className="Description">Сервис для организации консультаций</div>
@@ -58,7 +62,7 @@ class App extends Component {
 
           {middleSections}
 
-          <div className="Section SectionEnd">
+          <div className="SectionEnd">
             <div className="Text">
               <div className="TitleBottom">Контакты</div>
               <div className="DescriptionBottom">Свяжитесь с нами</div>
@@ -67,7 +71,8 @@ class App extends Component {
               <div className="Picture"/>
             </div>
           </div>
-        </div>
+
+
       </div>
     );
   }
